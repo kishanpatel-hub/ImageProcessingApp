@@ -1,0 +1,39 @@
+load res\\manhattan-small.png
+greyscale
+save res\\manhattan-small-greyscale.png
+load res\\manhattan-small.png
+edgedetection
+save res\\manhattan-small-edgedetection.png
+load res\\manhattan-small.png
+dithering
+save res\\manhattan-small-dithering.png
+load res\\manhattan-small.png
+mosaicing 1000
+save res\\manhattan-small-mosaicing.png
+load res\\manhattan-small.png
+greyscale
+equalization
+save res\\manhattan-small-equalization.png
+load res\\Toronto-Skyline-at-twilight.jpg
+greyscale
+save res\\Toronto-Skyline-at-twilight-greyscale.jpg
+load res\\Toronto-Skyline-at-twilight.jpg
+sepia
+save res\\Toronto-Skyline-at-twilight-sepia.jpg
+load res\\Toronto-Skyline-at-twilight.jpg
+edgedetection
+save res\\Toronto-Skyline-at-twilight-edgedetection.jpg
+load res\\Toronto-Skyline-at-twilight.jpg
+dithering
+save res\\Toronto-Skyline-at-twilight-dithering.jpg
+load res\\Toronto-Skyline-at-twilight.jpg
+mosaicing 1000
+save res\\Toronto-Skyline-at-twilight-mosaicing.jpg
+load res\\Toronto-Skyline-at-twilight.jpg
+greyscale
+equalization
+save res\\Toronto-Skyline-at-twilight-equalization.jpg
+checkerboard 4 5
+save res\\checkerboard.jpg
+franceflag 800 1000
+save res\\franceflag.jpg
